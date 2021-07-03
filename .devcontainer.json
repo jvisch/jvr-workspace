@@ -1,0 +1,25 @@
+{
+	"name": "jv-robot building",
+
+	"dockerComposeFile": [ "docker-compose.yml" ],
+
+	"service": "develop",
+
+	"workspaceFolder": "/jv-robot/",
+
+	"settings": {},
+
+	"extensions": ["jebbs.plantuml", "ms-vscode.cpptools", "ms-python.python"],
+
+	// "forwardPorts": [],
+
+	"runServices": ["develop"],
+
+	"shutdownAction": "none"
+
+	// Uncomment the next line to run commands after the container is created - for example installing curl.
+	// "postCreateCommand": "apt-get update && apt-get install -y curl",
+
+	// Uncomment to connect as a non-root user if you've added one. See https://aka.ms/vscode-remote/containers/non-root.
+	// "remoteUser": "vscode"
+}
