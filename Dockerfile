@@ -21,3 +21,5 @@ RUN apt install -y \
     ./${PANDOC_DEB_FILE}
 RUN rm ${PANDOC_DEB_FILE}
 
+# python linter
+RUN pip install -U autopep8 
