@@ -9,7 +9,7 @@
 
 	"settings": {},
 
-	"extensions": ["jebbs.plantuml", "ms-vscode.cpptools", "ms-python.python"],
+	"extensions": ["jebbs.plantuml", "ms-vscode.cpptools", "ms-python.python", "ms-vscode.cpptools-extension-pack", "ms-iot.vscode-ros"],
 
 	// "forwardPorts": [],
 
